@@ -1,0 +1,66 @@
+.container{
+    width:1024px;
+    /**background-color:yellow;**/
+    background-color:orange;
+    min-height:300px;
+    margin-left:auto;
+    margin-right:auto;
+    background-size:1024px 1000px;
+    color:white;
+}
+header{
+    /**background-color:green;**/
+    min-height:100px
+}
+h1{
+    font-size:50px;
+}
+main{
+    /**background-color:blue;**/
+    min-height:300px;
+    display:flex;
+    align-items: center;
+}
+.cards{
+    /**background-color:rgb(56,190,74);**/
+    min-height:300px;
+    display:flex;
+    justify-content: space-between;
+}
+.card1{
+    min-height:300px;
+    width:30%;
+    background-image: url(backgroundcard1);
+}
+.card2{
+    min-height:300px;
+    width:30%;
+    background-image: url(backgroundcard2);
+}
+.card3{
+    min-height:300px;
+    width:30%;
+    background-image: url(backgroundcard3);
+}
+.herobox1{
+    width:50%;
+    /**background-color:cornflowerblue;**/
+    flex:2;
+}
+.herobox2{
+    width:50%;
+    /**background-color: mintcream;**/
+    flex:1;
+    background-image:url(bikerepair\ icon);
+    min-height:300px;
+    background-size: 350px 300px;
+}
+.cards{
+    text-align: center;
+}
+
+.logo{
+    background-image: url(logo);
+    min-height: 100px;
+    width:150px;
+}

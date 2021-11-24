@@ -1,0 +1,74 @@
+header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    line-height: 1.75rem;
+    margin:0.5rem;
+}
+
+main {
+    min-height:300px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: #fc5e55;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 1.125rem;
+}
+
+/*****   Class  ****/
+
+.container {
+    width:1024px;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.cards {
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.card1 {
+    background-image: url(backgroundcard1);
+    width: 30%;
+}
+
+.card2 {
+    background-image: url(backgroundcard2);
+    width: 30%;
+}
+
+.card3 {
+    background-image: url(backgroundcard3);
+    width: 30%;
+}
+
+.herobox1 {
+    width: 50%;
+    flex: 2;
+    padding-right: 6.25rem;
+}
+
+.herobox2 {
+    width: 50%;
+    flex: 1;
+}
+
